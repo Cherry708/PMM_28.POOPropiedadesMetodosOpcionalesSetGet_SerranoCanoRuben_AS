@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PMM_28POOPropiedadesMetodosOpcionalesSetGet_SerranoCanoRuben_AS">
         <activity
+            android:name=".ProblemaPropuesto2"
+            android:exported="true" />
+        <activity
+            android:name=".ProblemaPropuesto1"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
