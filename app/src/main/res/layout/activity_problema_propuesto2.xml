@@ -6,4 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".ProblemaPropuesto2">
 
+    <TextView
+        android:id="@+id/tvTitle30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Tira el dado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTirar30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="184dp"
+        android:text="Tirar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvResult30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvResult30" />
+
+    <TextView
+        android:id="@+id/tvResult30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="187dp"
+        android:text="Ejemplo"
+        app:layout_constraintEnd_toEndOf="@+id/tvTitle30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvTitle30"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle30" />
 </androidx.constraintlayout.widget.ConstraintLayout>
